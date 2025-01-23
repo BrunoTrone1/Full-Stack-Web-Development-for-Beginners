@@ -1,0 +1,55 @@
+/* Comentario */ 
+body{
+    background-color: rgb(59, 59, 69);
+    /* background-image: url("https://www.buzzwebzine.fr/wp-content/uploads/2022/09/Starry-ia-1-1-1200x666.jpg"); */
+    background-position: right top;
+    color: aliceblue;
+    opacity: 0.8;
+}
+p{
+    font-size: 20px;
+}
+#id_1{
+    color: red;
+    margin-left: 20;
+    border-style: solid;
+}
+#id_2{
+    color: inherit;
+    margin-left: 40;
+}   
+.class_1{
+    background-color: rgb(0, 0, 0);
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: rgb(122, 121, 121);
+    color: white;
+
+    
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    background-color: rgb(122, 121, 121);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a:hover{
+    background-color: rgb(0, 0, 0);
+}
+.dropbtn{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
