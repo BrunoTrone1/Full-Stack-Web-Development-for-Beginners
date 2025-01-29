@@ -1,0 +1,141 @@
+*{
+ box-sizing: border-box;   
+}
+
+body{
+    background-color: #131720;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    margin: 0 5px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    animation: 0.5s ease-in-out;
+    transform: translate(0, -5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.topnav .search-container {
+    float: right;
+}
+ 
+form {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 0, 0);
+    width: 100%;
+    height: 2.4rem;
+    border-radius: 1rem;
+    align-items: center;
+    background-color: hsl(0, 0%, 95%);
+}
+
+input{
+    all: unset;
+    font: 15px system-ui;
+    color: black;
+    width: 100%;
+    height: 100%;
+    padding: 6px 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.thumbnail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 19px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #131720;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: #1e2533;
+    padding: 25px;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h1 {
+    color: white;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card p {
+    color: white;
+    font-size: 1rem;
+}
+
+.card:hover {
+    background-color: #303a51;
+    color: white;
+    animation: 0.5s ease-in-out;
+    transform: translate(0, -5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+/* Responsive layout - makes the three columns stack on top
+of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
